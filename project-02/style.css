@@ -1,0 +1,93 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html,body{
+    height: 100%;
+    width: 100%;
+    box-sizing: border-box;
+    background-color: deepskyblue;
+}
+
+body{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+#main{
+    width: 380px;
+    height: 500px;
+    background-color: #fff;
+    border-radius: 25px;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+ #main #insta-story{
+    height: 140px;
+    width: 100%;
+    padding: 20px;
+    white-space: nowrap;
+    overflow-x: auto;
+    overflow-y: hidden;
+
+}
+#insta-story::-webkit-scrollbar{
+display: none;
+}
+
+#insta-story img{
+    border: 2px solid red;
+    height: 100px;
+    width: 28%;
+    border-radius: 50%;
+    display: inline-block;
+    overflow-x: auto;
+    overflow-y: hidden;
+    background-size: cover;
+    background-position: center;
+    margin: 5px;
+}
+
+#card{
+    height: 60%;
+    width: 70%;
+    margin-left: 15%;
+    margin-right: 15%;
+    margin-top: 5%;
+    border-radius: 18px;
+    padding: 8px;
+    
+}
+
+#card img{
+    height: 100%;
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+    display: inline-block;
+    object-fit: cover;
+    border-radius: 12px;
+}
+
+#footer{
+    height: 44px;
+    width: 100%;
+    border-radius:25px;
+    padding-top: 10px;
+    font-weight: 900;
+    text-align: center;
+    font: 1em sans-serif;
+
+}
+
+#footer span{
+    font-size: 22px;
+    font-weight: bold;
+    font-family: 'Times New Roman', Times, serif;
+    color: coral;
+    padding-bottom: 10px;
+}

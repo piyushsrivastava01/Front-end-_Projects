@@ -1,0 +1,133 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: monospace;
+}
+
+html,body{
+    height: 100%;
+    width: 100%;
+    background: fixed;
+    display: block;
+    
+}
+
+#main{
+    height: 100%;
+    width: 100%;
+    background-image: url(https://images.unsplash.com/photo-1501785888041-af3ef285b470?q=80&w=1770&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+    background-size: cover;
+    background-position: center;
+}
+
+#nav{
+    height: 12%;
+    width: 100%;
+    justify-content: space-between;
+    display: flex;
+}
+
+#nav #left{
+    padding-top: 20px;
+    padding-left: 35px;
+}
+
+#left h1{
+    font-size: 50px;
+    font-weight: 800;
+    color: orange;
+    text-transform: uppercase;
+}
+
+#nav #nav-centre{
+  padding-top: 30px;
+  padding-left: 12px;
+}
+
+#nav-centre a{
+    font-size: 20px;
+    font-weight: 400;
+    text-decoration: none;
+    margin: 20px;
+}
+
+#nav #rnav{
+padding-top: 25px;
+padding-right: 30px;
+}
+
+#rnav i{
+    align-items: center;
+    justify-content: center;
+    font-weight: 900;
+    font-size: 30px;
+    color: orange;
+}
+
+#txt-container{
+    height: 88%;
+    width: 100%;
+    padding-top: 10%;
+    padding-left: 7%;
+}
+
+#content{
+    height: 300px;
+    width: 350px;
+
+}
+
+#content h1{
+    font-size: 65px;
+    font-family: monospace;
+    padding-left: 10%;
+    letter-spacing: 8px;
+    text-transform: uppercase;
+}
+
+#content p{
+    font-size: 70px;
+    font-weight: 900;
+    padding-left: 10%;
+    letter-spacing: 13px;
+    padding-top: 20px;
+    text-transform: uppercase;
+}
+
+#content span{
+    font-size: 70px;
+    font-weight: 1000;
+    letter-spacing: 13px;
+    color: rgb(255, 183, 0);
+    padding-top: 13px;
+    padding-left: 40px;
+    text-transform: uppercase;
+}
+
+#content h3{
+    padding-left: 10%;
+    font-size:45px;
+    font-weight: 1000;
+    padding-top: 13px;
+    letter-spacing: 12px;
+    text-transform: uppercase;
+}
+
+ #content .btn{
+    height: 130px;
+    width: 150px;
+    padding-left: 26%;
+    padding-top: 13%;
+}
+
+ button{
+    height: 35px;
+    width: 150;
+    font-size: 20px;
+    border-radius: 50px;
+    justify-content: center;
+    align-items: center;
+    background: transparent;
+}
+

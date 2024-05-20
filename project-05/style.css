@@ -1,0 +1,109 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+html,body{
+    height: 100%;
+    width: 100%;
+}
+#main{
+    height: 100%;
+    width: 100%;
+    background-color: rgb(255, 255, 255);
+}
+
+#nav{
+    height: 12%;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+#logo {
+    justify-content: space-between;
+    text-align: center;
+    align-items: center;
+    padding-left: 5vw;
+}
+
+#logo i{
+    font-size: 25px;
+}
+#centre a{
+    margin: 25px;
+    font-size: 25;
+    text-decoration: none;
+
+}
+
+#r-logo i{
+padding-right: 30px;
+font-size: 25px;
+}
+
+
+#container{
+    height: 88%;
+    width: 100%;
+    display: flex;
+}
+
+#left{
+    height: 100%;
+    width: 50%;
+}
+
+#left h1{
+    font-size: 75px;
+    font-weight: 900;
+    letter-spacing: 10px;
+    padding-top: 20%;
+    padding-left: 16%;
+}
+#left h2{
+    font-size: 20px;
+    width: 650px;
+    font-weight: 400;
+    letter-spacing: 10px;
+    padding-top: 15px;
+    padding-left: 16%;
+    text-transform: uppercase;
+}
+#left span{
+    font-size: 25px;
+    color: rgb(0, 0, 0);
+    font-weight: 900;
+}
+
+#left h3{
+    font-size: 20px;
+    width: 450px;
+    font-weight: 200;
+    letter-spacing: 10px;
+    padding-top: 20px;
+    padding-left: 16%;
+    text-transform: uppercase;
+}
+
+#right{
+    height: 100%;
+    width: 50%;
+    /* background-image: url(https://images.puma.com/image/upload/f_auto,q_auto,b_rgb:fafafa,w_2000,h_2000/global/195569/01/fnd/AUS/fmt/png/Softride-Enzo-Nxt-Youth-Running-Shoes); */
+    background-image: url(https://clipground.com/images/nike-shoes-png-6.png);
+    background-position: center;
+    background-size: cover;
+    
+}
+
+#left h5{
+    width: 70px;
+    font-size: 20px;
+    font-weight: 200;
+    letter-spacing: 7px;
+    padding-top: 70px;
+    padding-left: 40%;
+    text-transform: uppercase;
+}
