@@ -7,6 +7,8 @@ html,body{
     height: 100%;
     width: 100%;
     box-sizing: border-box;
+    overflow-x: hidden;
+    overflow-y: hidden;
 }
 
 #contaner{
@@ -29,14 +31,7 @@ html,body{
 #main{
     height: 80%;
     width: 100%;
-    white-space: nowrap;
-    overflow-x: auto;
-    overflow-y: hidden;
 }
-
-#top-container::-webkit-scrollbar{
-    display: none;
-    }
 
 #top-container{
     height: 40%;
@@ -45,16 +40,9 @@ html,body{
     padding-left: 15px;
     padding-right: 15px;
     display: flex;
-    overflow: hidden;
+    border-bottom: 1px solid black;
+}
 
-}
-#top-container #card{
-    height: 70%;
-    width: 16%;
-    background-color: #188769;
-    border-radius: 1rem;
-    margin: 2rem;
-}
 #down-container{
     height: 40%;
     width: 100%;
@@ -62,13 +50,77 @@ html,body{
     padding-left: 15px;
     padding-right: 15px;
     display: flex;
-    overflow: hidden;
     border-bottom: 1px solid black;
 }
+
+#top-container #card{
+    height: 70%;
+    width: 16%;
+    background-color: #010125;
+    border-radius: 1rem;
+    margin: 2rem;
+}
+#top-container #card1{
+    height: 70%;
+    width: 16%;
+    background-color: #93b2f3;
+    border-radius: 1rem;
+    margin: 2rem;
+}
+#top-container #card2{
+    height: 70%;
+    width: 16%;
+    background-color:#be1dfd;
+    border-radius: 1rem;
+    margin: 2rem;
+}
+#top-container #card3{
+    height: 70%;
+    width: 16%;
+    background-color:#eeaeca;
+    border-radius: 1rem;
+    margin: 2rem;
+}
+#top-container #card4{
+    height: 70%;
+    width: 16%;
+    background-color:#424153;
+    border-radius: 1rem;
+    margin: 2rem;
+}
+
 #down-container #card{
     height: 70%;
     width: 16%;
-    background-color: #7828a3;
+    background-color: #a62727;
+    border-radius: 1rem;
+    margin: 2rem;
+}
+#down-container #card1{
+    height: 70%;
+    width: 16%;
+    background-color:#89be02ac ;
+    border-radius: 1rem;
+    margin: 2rem;
+}
+#down-container #card2{
+    height: 70%;
+    width: 16%;
+    background-color:#831671b1;
+    border-radius: 1rem;
+    margin: 2rem;
+}
+#down-container #card3{
+    height: 70%;
+    width: 16%;
+    background-color:  #08080a;
+    border-radius: 1rem;
+    margin: 2rem;
+}
+#down-container #card4{
+    height: 70%;
+    width: 16%;
+    background-color: #445a8a ;
     border-radius: 1rem;
     margin: 2rem;
 }
