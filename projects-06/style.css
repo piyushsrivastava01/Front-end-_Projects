@@ -41,6 +41,10 @@ html,body{
     padding-right: 15px;
     display: flex;
     border-bottom: 1px solid black;
+    box-shadow:
+    inset 0 -3em 3em rgb(0 200 0 / 30%),
+    0 0 0 2px white,
+    0.3em 0.3em 1em rgb(200 0 0 / 60%);
 }
 
 #down-container{
@@ -51,6 +55,10 @@ html,body{
     padding-right: 15px;
     display: flex;
     border-bottom: 1px solid black;
+    box-shadow:
+    inset 0 -3em 3em rgb(0 200 0 / 30%),
+    0 0 0 2px white,
+    0.3em 0.3em 1em rgb(200 0 0 / 60%);
 }
 
 #top-container #card{
@@ -59,6 +67,7 @@ html,body{
     background-color: #010125;
     border-radius: 1rem;
     margin: 2rem;
+    box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
 }
 #top-container #card1{
     height: 70%;
@@ -66,6 +75,7 @@ html,body{
     background-color: #93b2f3;
     border-radius: 1rem;
     margin: 2rem;
+    box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
 }
 #top-container #card2{
     height: 70%;
@@ -73,6 +83,7 @@ html,body{
     background-color:#be1dfd;
     border-radius: 1rem;
     margin: 2rem;
+    box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
 }
 #top-container #card3{
     height: 70%;
@@ -80,6 +91,7 @@ html,body{
     background-color:#eeaeca;
     border-radius: 1rem;
     margin: 2rem;
+    box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
 }
 #top-container #card4{
     height: 70%;
@@ -87,6 +99,7 @@ html,body{
     background-color:#424153;
     border-radius: 1rem;
     margin: 2rem;
+    box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
 }
 
 #down-container #card{
@@ -95,6 +108,7 @@ html,body{
     background-color: #a62727;
     border-radius: 1rem;
     margin: 2rem;
+    box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
 }
 #down-container #card1{
     height: 70%;
@@ -102,6 +116,7 @@ html,body{
     background-color:#89be02ac ;
     border-radius: 1rem;
     margin: 2rem;
+    box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
 }
 #down-container #card2{
     height: 70%;
@@ -109,6 +124,7 @@ html,body{
     background-color:#831671b1;
     border-radius: 1rem;
     margin: 2rem;
+    box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
 }
 #down-container #card3{
     height: 70%;
@@ -116,6 +132,7 @@ html,body{
     background-color:  #08080a;
     border-radius: 1rem;
     margin: 2rem;
+    box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
 }
 #down-container #card4{
     height: 70%;
@@ -123,4 +140,5 @@ html,body{
     background-color: #445a8a ;
     border-radius: 1rem;
     margin: 2rem;
+    box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
 }
